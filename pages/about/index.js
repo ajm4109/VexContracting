@@ -143,7 +143,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            Over 13 years ago I started playing with water in the winter time... Still don't know fuckin' shit! ... Just kidding! I may know a thing or two.
+            Over 13 years ago I started playing with water in the winter time... Still don&apos;t know fuckin&apos; shit! ... Just kidding! I may know a thing or two.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -231,7 +231,7 @@ const About = () => {
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className='text-2xl text-white'>{icon}</div>;
+                      return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>;
                     })}
                   </div>
                 </div>
