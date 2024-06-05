@@ -143,7 +143,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            Over 13 years ago I started playing with water in the winter time... Still don&apos;t know fuckin&apos; shit! ... Just kidding! I may know a thing or two.
+            Over 13 years ago I started my journey heating water with 40M BTU propane super heater units and then I got into transfering and now I do both.
           </motion.p>
           {/* counters */}
           <motion.div
